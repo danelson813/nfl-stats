@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nfl-stats"
+version = "0.1.0"
+description = "scraping nfl stats"
+authors = ["Dan Nelson <danelson@nwi.net>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+bs4 = "^0.0.2"
+pandas = "^2.2.0"
+pyarrow = "^15.0.0"
+fake-useragent = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
