@@ -164,8 +164,9 @@ cython_debug/
 *.csv
 *.pkl 
 *.parquet
-*.csv
+*/*.csv
 *.feather
 *.arrow
-*.db
+*/*.db
 .DS_Store
+*/*.log
